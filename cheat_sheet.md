@@ -168,12 +168,16 @@ import random # import the random module
 The [Python Standard Library](https://docs.python.org/3/library/) are modules provided by the Python Foundation. These modules provide standardized solutions for many problems that occur in everyday programming. These modules come together with Python when you install it so you just need to do `import module_name` to use it in your code.
 For modules that are not part of the Standard Library, you will need to download them before importing.
 
+## Classes
+Its is like declaring a custom datatype that can contain functions.
+Or you can imagine it like a blueprint to a factory which can contain goods (data) and machines that process various things (functions), and you can build as many factories as you want from the blueprint.
+
 
 ## Misc
 ### What are these symbols used for?
 | Symbol    | Purpose               |
 | --------- | --------------------- |
-| ()        | BODMAS rule in math, grouping logic, at the end of functions to pass in variables, tuples |
-| []        | Declare a list, or index into a list or dictionary    |
-| {}        | Declare a dictionary |
-| :         | Generally used with indentations - the thing before will be applied to following line(s) that are indented more |
+| ()        | BODMAS rule in math, grouping logic, at the end of functions to pass in variables, tuples. They contains things you want to pass, and always come after the thing you want to pass to.|
+| []        | Declare a list, or index into a list or dictionary, always comes after the name you are trying to access.|
+| {}        | Declare a dictionary. |
+| :         | Generally used with indentations - the thing before will be applied to following line(s) that are indented more. |
